@@ -5,13 +5,13 @@
     Peça para o usuário informar o seu salário atual e calcule qual deverá ser o novo salário após o reajuste da inflação.
     Apresente o resultado para o usuário.
     */
-
+    
     //ENTRADA
-
+    const salario = Number(prompt('Informe seu salario:').replace(',','.'));
 
     //PROCESSAMENTO
-
+    const salarioInflado = salario + salario * 0.053
 
     //SAÍDA
-
+    alert('O seu salário após o reajuste da inflação será de: ' + salarioInflado + ' reais.').replace('.',',')
 </script>

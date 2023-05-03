@@ -7,13 +7,14 @@
     Apresente os dois resultados na tela.
     Considere que um ano possui 365 dias!
     */
-
+    
     //ENTRADA
-
+    const preco = Number(prompt('Informe qual o preço da garrafa de vinho:').replace(',','.'));
 
     //PROCESSAMENTO
-
+    const litros = (730 / 2) * 0.750
+    const gasto = preco * 365
 
     //SAÍDA
-
+    alert('Ao fim de 2 anos você terá tomado ' + litros + ' litros, e terá gasto ' + gasto + ' reais.').replace('.',',') 
 </script>
